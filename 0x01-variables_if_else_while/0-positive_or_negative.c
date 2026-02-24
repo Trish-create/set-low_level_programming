@@ -6,26 +6,25 @@ int main(void)
 {
     int n;
 
-    /* Do not change this part */
-    srand(time(NULL));
-    n = (rand() % 201) - 100; /* Random number between -100 and 100 */
+    srand(time(0));
+    n = rand() - RAND_MAX / 2;
 
-    /* Print the number */
-    printf("%d is ", n);
+    printf("%d ", n);
 
-    /* Check if positive, zero, or negative */
     if (n > 0)
     {
-        printf("positive\n");
+        printf("is positive");
     }
     else if (n == 0)
     {
-        printf("zero\n");
+        printf("is zero");
     }
     else
     {
-        printf("negative\n");
+        printf("is negative");
     }
+
+    printf("\n");
 
     return (0);
 }
