@@ -3,17 +3,14 @@
 /**
  * print_alphabet - prints the alphabet in lowercase
  *
- * Return: void
+ * Description: Prints letters from a to z followed by a new line.
  */
 void print_alphabet(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z' + 1; c++)
-	{
-		if (c <= 'z')
-			_putchar(c);
-		else
-			_putchar('\n');
-	}
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+
+	_putchar('\n');
 }
