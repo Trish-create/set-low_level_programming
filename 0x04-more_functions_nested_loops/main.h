@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int _putchar(char c);
-void print_diagonal(int n);
+int _isupper(int c);
 
 #endif
