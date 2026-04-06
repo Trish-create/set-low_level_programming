@@ -3,8 +3,9 @@
 
 /**
  * is_number - checks if a string contains only digits
- * @str: check a string
- *return: 0
+ * @str: string to check
+ *
+ * Return: 1 if string contains only digits, 0 otherwise
  */
 int is_number(char *str)
 {
