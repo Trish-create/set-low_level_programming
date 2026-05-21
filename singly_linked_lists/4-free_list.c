@@ -2,13 +2,12 @@
 
 /**
  * free_list - frees a list_t list
- * @head is the pointer to the first node 
+ * @head: pointer to the first node
  * Return: void
  */
 void free_list(list_t *head)
 {
 	list_t *current;
-
 	while (head != NULL)
 	{
 		current = head->next;
